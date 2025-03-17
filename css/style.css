@@ -6,3 +6,61 @@
     padding: 0;
     border: none;
 }
+
+.topLogo {
+
+}
+
+.topNav {
+
+}
+
+/* START MAIN */
+
+/* hero section */
+
+.heroRow {
+    background-color: #e7718b;
+}
+
+.heroRow button {
+    background: rgb(45,44,44);
+    background: linear-gradient(0deg, rgba(45,44,44,1) 30%, rgba(98,98,98,1) 75%);
+    color: #ffffff;
+}
+
+.laptop {
+    text-align: center;
+}
+
+.heroRow img {
+    width: 85%;
+}
+
+/* mid section */
+
+.midSection {
+    background-color: #f4f4f6;
+}
+
+.middleRow {
+    border-bottom: 7px solid #e7718b;
+}
+
+.midSection h4 {
+    color: #717173;
+}
+
+.midSection p {
+    color: #ceced0;
+}
+
+/* bottom section */
+
+.authorName {
+    font-weight: bold;
+}
+
+.bottomRow p {
+    font-size: large;
+}
