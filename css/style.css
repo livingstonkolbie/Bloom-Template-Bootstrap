@@ -44,7 +44,7 @@
 }
 
 .middleRow {
-    border-bottom: 7px solid #e7718b;
+    border-bottom: 3px solid #e7718b;
 }
 
 .midSection h4 {
@@ -64,3 +64,26 @@
 .bottomRow p {
     font-size: large;
 }
+
+.botRight {
+    padding-top: 5%;
+}
+
+@media (min-width: 1024px) {
+    .botRight {
+        padding-top: 0;
+    }
+}
+
+/* footer */
+
+footer {
+    background-color: #26292e;
+    color: #ffffff;
+}
+
+footer button {
+    border: none;
+    padding: 0;
+}
+
