@@ -33,6 +33,20 @@
     .topLogo img {
         width: 80%;
     }
+}
+
+@media (min-width: 2560px) {
+    .topBar {
+        height: 150px;
+    }
+
+    .topBar img {
+        width: 85%;
+    }
+
+    .topNav img {
+        width: 100%;
+    }
 
 }
 
@@ -85,6 +99,28 @@
 
 }
 
+@media (min-width: 2560px) {
+    .heroTop h4 {
+        font-size: xxx-large;
+        margin: 4% 0;
+    }
+
+    .heroTop p {
+        font-size: xx-large;
+        line-height: 200%;
+    }
+
+    .heroBtn {
+        margin-top: 5%;
+    }
+
+    .heroBtn button {
+        height: 73px;
+        font-size: xx-large;
+    }
+
+}
+
 @media (max-width: 576px) {
 
     .heroTop {
@@ -131,6 +167,26 @@
     }
 }
 
+@media (min-width: 2560px) {
+    .middleRow img {
+        width: 75%;
+    }
+
+    .midSection h4 {
+        font-size: xxx-large;
+    }
+
+    .midSection p {
+        font-size: xx-large;
+        line-height: 190%;
+        font-weight: 500;
+    }
+
+    .botLeft img {
+        width: 75%;
+    }
+}
+
 /* bottom section */
 
 .authorName {
@@ -165,6 +221,22 @@
     .botRight p {
         font-size: x-large;
         line-height: 187%;
+    }
+}
+
+@media (min-width: 2560px) {
+    .botLeft h3 {
+        font-size: xxx-large;
+    }
+
+    .botRight h3 {
+        font-size: xxx-large;
+    }
+
+    .botRight p {
+        font-size: xx-large;
+        line-height: 193%;
+        font-weight: 500;
     }
 }
 
@@ -214,5 +286,18 @@ footer button {
     footer p {
         font-size: larger;
     }
+}
 
+@media (min-width: 2560px) {
+    footer {
+        height: 100px;
+    }
+
+    footer p {
+        font-size: xx-large;
+    }
+
+    .footNav img {
+        width: 62px;
+    }
 }
