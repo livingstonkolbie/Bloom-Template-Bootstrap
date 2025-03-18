@@ -1,5 +1,7 @@
 .topBar {
     background-color: #26292e;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .topBar button {
@@ -11,7 +13,26 @@
 
 }
 
+.topNav button {
+    background-color: #26292e;
+}
+
 .topNav {
+    justify-items: end;
+}
+
+.topNav img {
+    width: 80%;
+}
+
+@media (max-width: 576px) {
+    .topLogo {
+        text-align: center;
+    }
+    
+    .topLogo img {
+        width: 80%;
+    }
 
 }
 
@@ -35,6 +56,27 @@
 
 .heroRow img {
     width: 85%;
+}
+
+.heroBtn button {
+    border-radius: 8%;
+}
+
+@media (max-width: 576px) {
+
+    .heroTop {
+        margin-left: 2%;
+    }
+
+    .heroRow h4 {
+        text-align: center;
+    }
+
+    .heroBtn {
+        justify-self: center;
+        width: 102%;
+    }
+
 }
 
 /* mid section */
@@ -75,6 +117,14 @@
     }
 }
 
+@media (max-width: 576px) {
+
+    .bottomRow h3 {
+        text-align: center;
+    }
+
+}
+
 /* footer */
 
 footer {
@@ -87,3 +137,19 @@ footer button {
     padding: 0;
 }
 
+.footCopy {
+    text-align: center;
+}
+
+.footNav {
+    text-align: center;
+}
+
+.footNav button {
+    background-color: #26292e;
+}
+
+.footNav img {
+    width: 80%;
+    background-color: #26292e;
+}
